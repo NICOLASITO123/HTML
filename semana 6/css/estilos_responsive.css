@@ -222,7 +222,7 @@ color:black;
         "sidebar sidebar" 650px
         "footer footer" 100px /
          250px 450px; 
-         font-size: 75%;/Cambia el tamaño de la letra/
+         font-size: 75%;/*Cambia el tamaño de la letra*/
     }
     #menu{
         background-color: blue;
@@ -238,7 +238,7 @@ color:black;
     flex-direction: column;/* cambia la forma de direccion de fila a col*/
     justify-content: space-between;
     align-items:center;
-    flex-wrap: wrap;/se define el auto ajuste de ancho dispostivo pasa a sgte. linea/
+    flex-wrap: wrap;/*se define el auto ajuste de ancho dispostivo pasa a sgte. linea*/
     max-width:100%;
        
     }
