@@ -1,7 +1,12 @@
+@font-face {
+    font-family: AnalogScript_PERSONAL_USE_ONLY;
+    src: url(../fonts/AnalogScript_PERSONAL_USE_ONLY.otf);
+}
 body {
 
-    font-family: 'Bungee Spice', cursive;
+    font-family: AnalogScript_PERSONAL_USE_ONLY;
     background-image: url(../img/constelaciones\ semana\ 9\ .jpeg.jpeg);
+    color: aliceblue;
     
     }
     
