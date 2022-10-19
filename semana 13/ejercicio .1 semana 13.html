@@ -7,22 +7,20 @@
 <title>CICLO FOR</title>
 </head>
 <body>
-    <center>
-<h1>GENERACIÓN DE NÚMEROS PARES </h1>
+<h3>GENERACIÓN DE NÚMEROS PARES </h3>
 <script>
 let inicio, final;
-let num=0; //variable para contar los numeros pares//
-inicio=parseInt(prompt("ingrese Número inicial rango"));
-final=parseInt(prompt("ingrese Número final rango"));
+let num=0;
+inicio=parseInt(prompt("Número inicial rango"));
+final=parseInt(prompt("Número final rango"));
 for(f=inicio;f<=final;f++)
 {
 if (f % 2 == 0){
 document.write("NÚMERO PAR..."+f+"<br>");
-num++; //contador de numeros pares//
+num++;
 }
 }
 document.write("cantidad de números pares generados..."+num+"<br>");
 </script>
-</center>
 </body>
 </html>

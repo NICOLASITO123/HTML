@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>informe de notas grupal</h1>
+        <h2>materia pae programacio</h2>
+        <script>
+            let prom=0;
+            let suma=0;
+            let num_std=1;
+            while (num_std<=3) {
+                nomstd=prompt("ingrese nombre de estudiante")
+                let num=1
+                while (num<=3){
+                    nota=parseFloat(prompt("ingrese nota programacion"));
+                    num++;
+                }
+                num_std++;
+            }
+            //
+            prom=suma/9;
+            document.write("***********"+"colegio sistemas"+"****************"+"<br>"+"<br>")
+            document.write("***********"+"boletin de notas---materia progr4amacion"+"****************"+"<br>"+"<br>")
+            document.write("***********"+"promedionotas de grupo pae06"+"****************"+"<br>"+"<br>")
+        </script>
+    </center>
+</body>
+</html>
